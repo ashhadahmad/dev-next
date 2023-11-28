@@ -1,4 +1,11 @@
-import { About, Courses, Gradient, Header, Hero } from "../components";
+import {
+  About,
+  CTALarge,
+  Courses,
+  Gradient,
+  Header,
+  Hero,
+} from "../components";
 
 export default function Home() {
   return (
@@ -8,6 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Courses />
+      <CTALarge />
     </div>
   );
 }

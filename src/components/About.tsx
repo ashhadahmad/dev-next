@@ -17,7 +17,7 @@ const About = () => {
               </span>{" "}
             </p>
             <ul className="flex gap-4 py-4 text-base lg:text-xl">
-              <li className="flex-1 border-2 flex items-center border-gray-400/10 rounded-md p-1 text-center">
+              <li className="backdrop-blur-md flex-1 border-2 flex items-center border-gray-400/10 rounded-md p-1 text-center">
                 <span>
                   There's <span className="font-bold">so much</span> to learn.
                   So many{" "}
@@ -26,7 +26,7 @@ const About = () => {
                   </span>
                 </span>
               </li>
-              <li className="flex-1 border-2 flex items-center border-gray-400/10 rounded-md p-1 text-center">
+              <li className="backdrop-blur-md flex-1 border-2 flex items-center border-gray-400/10 rounded-md p-1 text-center">
                 <span>
                   I don't understand{" "}
                   <span className="bg-gradient-to-r from-pink-400 via-fuchsia-500-500 to-red-700 bg-[length:100%_2px] bg-no-repeat bg-bottom">
@@ -34,7 +34,7 @@ const About = () => {
                   </span>
                 </span>
               </li>
-              <li className="flex-1 border-2 flex items-center border-gray-400/10 rounded-md p-1 text-center">
+              <li className="backdrop-blur-md flex-1 border-2 flex items-center border-gray-400/10 rounded-md p-1 text-center">
                 Everyone else seems to know so much more.
               </li>
             </ul>
